@@ -1,7 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
+    <PackageId>Fixer.io</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>David Revoledo (Devit)</Authors>
+    <Company>DGENIX</Company>
+    <Description>Use Fixer IO Api from .Net</Description>
+    <PackageTags>C# SDK Fixer Fixer.IO Currencies</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
