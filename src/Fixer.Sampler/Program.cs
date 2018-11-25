@@ -10,7 +10,7 @@ namespace Fixer.Sampler
         {
             IExchangeRatesSource rates = new ExchangeRatesSource();
 
-            var root = rates.GetCurrenciesAsync("9e0d9b7439d09290cd6365ed0999e083")
+            var root = rates.GetCurrenciesAsync("ApiKeyHere")
                 .GetAwaiter()
                 .GetResult();
 
