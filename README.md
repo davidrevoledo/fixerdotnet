@@ -14,9 +14,10 @@ Original repo https://github.com/fixerAPI/fixer
 To Install from the Nuget Package Manager Console 
 
 ```sh
-PM > Install-Package EuropeanCentralBank.ExchangeRates
-NET CLI - dotnet add package EuropeanCentralBank.ExchangeRates
-paket paket add EuropeanCentralBank.ExchangeRates
+PM > Install-Package Fixer.io 
+NET CLI - dotnet add package Fixer.io
+paket paket add Fixer.io
+
 ```
 
 # Usage
