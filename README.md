@@ -3,11 +3,11 @@ Libarary to consume https://fixer.io/product in .net
 
 Original repo https://github.com/fixerAPI/fixer
 
-[![Build status](https://ci.appveyor.com/api/projects/status/mqxsdtbprpyu7pi4?svg=true)](https://ci.appveyor.com/project/davidrevoledo/europeancentralbank-exchangerates)
-[![CodeFactor](https://www.codefactor.io/repository/github/davidrevoledo/europeancentralbank.exchangerates/badge)](https://www.codefactor.io/repository/github/davidrevoledo/europeancentralbank.exchangerates)
+[![CodeFactor](https://www.codefactor.io/repository/github/davidrevoledo/fixerdotnet/badge)](https://www.codefactor.io/repository/github/davidrevoledo/fixerdotnet)
+[![Build status](https://ci.appveyor.com/api/projects/status/iytre288g53nh213?svg=true)](https://ci.appveyor.com/project/davidrevoledo/fixerdotnet)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![NuGet](https://img.shields.io/nuget/v/EuropeanCentralBank.ExchangeRates.svg)
-![NuGet](https://img.shields.io/nuget/dt/EuropeanCentralBank.ExchangeRates.svg)
+![NuGet](https://img.shields.io/nuget/v/Fixer.io.svg)
+![NuGet](https://img.shields.io/nuget/dt/Fixer.io.svg)
 
 # Installation
 
