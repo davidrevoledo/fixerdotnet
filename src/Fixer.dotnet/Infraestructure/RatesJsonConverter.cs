@@ -40,12 +40,11 @@ namespace Fixer.dotnet.Infraestructure
             {
                 var values = serializer.Deserialize<Dictionary<string, string>>(reader);
 
-                var result = new Dictionary<string, double>();
+                var result = new Dictionary<string, string>();
 
                 foreach (var value in values)
                 {
-                    double.TryParse(value.Value, out var rate);
-                    result.Add(value.Key, rate);
+                    result.Add(value.Key, value.Value);
                 }
 
                 return result;

@@ -27,7 +27,7 @@ namespace Fixer.dotnet
 {
     public class Currency
     {
-        public Currency(string symbol, double factor)
+        public Currency(string symbol, string factor)
         {
             Symbol = symbol;
             Factor = factor;
@@ -35,7 +35,7 @@ namespace Fixer.dotnet
 
         public string Symbol { get; set; }
 
-        public double Factor { get; set; }
+        public string Factor { get; set; }
 
         public Currencies? GetEquivalent()
         {

@@ -67,7 +67,7 @@ namespace Fixer.dotnet.Infraestructure.ApiContract
 
         [JsonProperty(PropertyName = "rates")]
         [JsonConverter(typeof(RatesJsonConverter))]
-        public Dictionary<string, double> Rates { get; set; } = new Dictionary<string, double>();
+        public Dictionary<string, string> Rates { get; set; } = new Dictionary<string, string>();
 
         [JsonProperty(PropertyName = "currencies")]
         public IEnumerable<Currency> Currencies { get; set; } = new List<Currency>();
