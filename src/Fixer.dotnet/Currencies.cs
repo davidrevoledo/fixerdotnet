@@ -126,6 +126,9 @@ namespace Fixer.dotnet
         USDollar,
 
         [ISOCode("ZAR")]
-        SouthAfricanRand
+        SouthAfricanRand,
+
+        [ISOCode("VND")]
+        VietnameseDong
     }
 }

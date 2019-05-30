@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
     <PackageId>Fixer.io</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <Authors>David Revoledo (Devit)</Authors>
     <Company>DGENIX</Company>
     <Description>Use Fixer IO Api from .Net</Description>
