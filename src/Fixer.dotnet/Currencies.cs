@@ -129,6 +129,9 @@ namespace Fixer.dotnet
         SouthAfricanRand,
 
         [ISOCode("VND")]
-        VietnameseDong
+        VietnameseDong,
+
+        [ISOCode("TWD")]
+        NewTaiwanDollar,
     }
 }
