@@ -31,4 +31,4 @@ IExchangeRatesSource rates = new ExchangeRatesSource();
 var root = rates.GetCurrenciesAsync("FixerApiKeyHere")
 ```
 
-Made with ❤ in [DGENIX](https://www.dgenix.com/)
+Made with ❤
